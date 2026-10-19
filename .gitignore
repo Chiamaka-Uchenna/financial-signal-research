@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+# Yahoo Finance price data is not redistributed; run_research.py re-downloads it.
+# Its SHA-256 is recorded in results/data_summary.json.
+data/sp500_prices.parquet

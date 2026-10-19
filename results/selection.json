@@ -1,0 +1,21 @@
+{
+  "selected_lookback": 20,
+  "criterion": "max annualised Sharpe net of 10 bps, train window only",
+  "train_eval_window": [
+    "2010-01-04",
+    "2019-12-23"
+  ],
+  "embargo_trading_days": 5,
+  "candidates": [
+    1,
+    3,
+    5,
+    10,
+    20
+  ],
+  "hold": 5,
+  "quantile": 0.1,
+  "last_price_date_visible_to_train": "2019-12-31",
+  "prices_parquet_sha256": "434ecfcbf4eb598bd74faabce1b7eac360dfa83aeb166e0c936ed48c83c5239b",
+  "frozen_utc": "2026-10-19T22:21:33+00:00"
+}

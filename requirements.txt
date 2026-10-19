@@ -1,0 +1,9 @@
+# Exact versions used to produce the committed results (Python 3.14.0, Windows 11).
+yfinance==1.7.0
+pandas==3.0.6
+numpy==2.5.4
+matplotlib==3.11.2
+scipy==1.18.1
+pyarrow==26.0.0
+lxml==6.1.3
+pytest==9.1.1

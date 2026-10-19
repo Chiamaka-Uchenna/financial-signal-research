@@ -1,0 +1,63 @@
+{
+  "selection": {
+    "selected_lookback": 20,
+    "criterion": "max annualised Sharpe net of 10 bps, train window only",
+    "train_eval_window": [
+      "2010-01-04",
+      "2019-12-23"
+    ],
+    "embargo_trading_days": 5,
+    "candidates": [
+      1,
+      3,
+      5,
+      10,
+      20
+    ],
+    "hold": 5,
+    "quantile": 0.1,
+    "last_price_date_visible_to_train": "2019-12-31",
+    "prices_parquet_sha256": "434ecfcbf4eb598bd74faabce1b7eac360dfa83aeb166e0c936ed48c83c5239b",
+    "frozen_utc": "2026-10-19T22:21:33+00:00"
+  },
+  "test_window": [
+    "2020-01-02",
+    "2024-12-31"
+  ],
+  "gross": {
+    "days": 1258,
+    "ann_return": 0.0072375373229817816,
+    "cagr": -0.0016642755655729147,
+    "ann_vol": 0.13377064231946367,
+    "sharpe": 0.054104078424752525,
+    "t_stat_nw": 0.11763414678404562,
+    "p_value_nw": 0.9063575475567371,
+    "max_drawdown": -0.25640676972553744,
+    "hit_rate": 0.4697933227344992,
+    "total_return": -0.008280615768076593,
+    "avg_daily_turnover": 0.19382524253083605,
+    "ann_cost_drag": 0.04884396111777069,
+    "avg_gross_exposure": 0.9960947919708429
+  },
+  "net_10bps": {
+    "days": 1258,
+    "ann_return": -0.0416064237947889,
+    "cagr": -0.04925705748781217,
+    "ann_vol": 0.13373244001138748,
+    "sharpe": -0.3111169121811137,
+    "t_stat_nw": -0.676621347576946,
+    "p_value_nw": 0.4986462310229881,
+    "max_drawdown": -0.26370322361011567,
+    "hit_rate": 0.4578696343402226,
+    "total_return": -0.2228771950841607,
+    "avg_daily_turnover": 0.19382524253083605,
+    "ann_cost_drag": 0.04884396111777069,
+    "avg_gross_exposure": 0.9960947919708429
+  },
+  "breakeven_cost_bps": 1.4817670715794138,
+  "environment": {
+    "python": "3.14.0",
+    "pandas": "3.0.6"
+  },
+  "run_utc": "2026-10-19T22:22:21+00:00"
+}

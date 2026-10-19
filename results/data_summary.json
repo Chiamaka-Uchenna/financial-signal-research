@@ -1,0 +1,24 @@
+{
+  "first_date": "2009-11-02",
+  "last_date": "2024-12-31",
+  "trading_days": 3816,
+  "tickers_with_data": 498,
+  "stock_day_price_observations": 1779302,
+  "stock_day_return_observations": 1778804,
+  "median_stocks_per_day": 472.0,
+  "min_stocks_per_day": 415,
+  "daily_abs_returns_over_50pct": 13,
+  "max_daily_return": 0.745932319141307,
+  "min_daily_return": -0.5386471994181736,
+  "universe_csv_sha256": "58e063d1dc3fdac0f772d2aefa0b6f11afb881ca2f10f7e5ad66bb2364944c00",
+  "prices_parquet_sha256": "434ecfcbf4eb598bd74faabce1b7eac360dfa83aeb166e0c936ed48c83c5239b",
+  "universe_size_requested": 503,
+  "universe_retrieved_utc": "2026-10-19",
+  "tickers_failed_download": [
+    "FDXF",
+    "HONA",
+    "Q",
+    "SNDK",
+    "VYLR"
+  ]
+}
